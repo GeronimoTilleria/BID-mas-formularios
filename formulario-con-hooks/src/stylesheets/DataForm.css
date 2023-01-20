@@ -1,0 +1,17 @@
+form > div {
+    background-color: rgb(227, 227, 227);
+    border-radius: 5px;
+    padding: 7px;
+    margin: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+form > p {
+    background-color: rgb(235, 91, 91);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
