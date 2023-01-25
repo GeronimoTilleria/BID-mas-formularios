@@ -97,22 +97,6 @@ const DataForm = ({ formValues, setFormValues }) => {
             handleErrorConfirmPassword(value);
         }
 
-
-        // if (name === 'confirmPassword') {
-        //     if (value.length !== formValues.password.length || value !== formValues.password) {
-        //         console.log('Contraseña incorrecta');
-        //         setPasswordError({
-        //             confirmPassword: 'Contraseña no coincide'
-        //         });
-        //     }
-        // }
-
-        // if (value === formValues.password) {
-        //     setPasswordError({
-        //         confirmPassword: ""
-        //     });
-        // }
-
         setFormValues({
             ...formValues,
             [name]: value
