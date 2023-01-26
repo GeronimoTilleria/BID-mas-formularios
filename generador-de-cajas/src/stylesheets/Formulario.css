@@ -1,0 +1,26 @@
+.formulario {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[name= 'color'] {
+    border: none;
+    background-color: rgb(228, 228, 228);
+    width: 200px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+input[name='add'] {
+    cursor: pointer;
+    border: none;
+    width: 70px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
