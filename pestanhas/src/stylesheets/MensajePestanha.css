@@ -1,0 +1,6 @@
+.contenedor-mensaje {
+    height: 200px;
+    border: 2px solid rgb(0, 0, 0, 20%);
+    font-size: 20px;
+    padding: 10px 15px;
+}

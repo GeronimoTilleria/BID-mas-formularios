@@ -1,0 +1,6 @@
+.contenedor-pestanhas {
+    margin-bottom: 15px;
+
+    display: flex;
+    column-gap: 10px;
+}
